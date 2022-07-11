@@ -1,8 +1,13 @@
 import React from "react";
 
 export default class HelloWorld extends React.Component{
-    hello = 'Hello World';
+    hello(name) {
+      return  'Hello, ' + name;
+    }
+    
+    
+    
     render(){
-        return <h1>{this.hello}</h1>
+        return <h1>{this.hello("Mario")}</h1>
     }
 }
