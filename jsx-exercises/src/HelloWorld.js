@@ -8,6 +8,7 @@ export default class HelloWorld extends React.Component{
     
     
     render(){
-        return <h1>{this.hello("Mario")}</h1>
+        return <h1>{this.hello()}</h1>
     }
 }
+//return Hello, undefined
